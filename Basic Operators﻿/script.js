@@ -33,19 +33,19 @@ console.log(population > finlandPopulation);
 let averagePopulation = 33;
 console.log(population < averagePopulation);
 
-let description = console.log(
+const description =
   country +
-    " " +
-    "is in" +
-    " " +
-    continent +
-    "," +
-    " " +
-    "and its" +
-    " " +
-    population +
-    " " +
-    "million speak" +
-    " " +
-    language
-);
+  " " +
+  "is in" +
+  " " +
+  continent +
+  "," +
+  " " +
+  "and its" +
+  " " +
+  population +
+  " " +
+  "million people  speak" +
+  " " +
+  language;
+console.log(description);
